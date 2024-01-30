@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caulculadora</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <main data-theme="dark" id="main">
+      <header>
+        <h1>Caulculadora</h1>
+        <button type="button" id="switchTheme">Troca Tema</button>
+      </header>
+      <section>
+        <article id="countArticle">
+          <input type="text" name="count" id="count" value="" />
+        </article>
+        <article id="buttonArticle">
+          <button data-value="C" id="cleanButton">C</button>
+          <button data-value=" ( " class="calcButton">(</button>
+          <button data-value=" ) " class="calcButton">)</button>
+          <button data-value=" / " class="calcButton">/</button>
+          <button data-value="7" class="calcButton">7</button>
+          <button data-value="8" class="calcButton">8</button>
+          <button data-value="9" class="calcButton">9</button>
+          <button data-value=" * " class="calcButton">*</button>
+          <button data-value="4" class="calcButton">4</button>
+          <button data-value="5" class="calcButton">5</button>
+          <button data-value="6" class="calcButton">6</button>
+          <button data-value=" - " class="calcButton">-</button>
+          <button data-value="1" class="calcButton">1</button>
+          <button data-value="2" class="calcButton">2</button>
+          <button data-value="3" class="calcButton">3</button>
+          <button data-value=" + " class="calcButton">+</button>
+          <button data-value="0" class="calcButton">0</button>
+          <button data-value="." class="calcButton">.</button>
+          <button data-value=" % " class="calcButton">mod</button>
+          <button data-value="=" id="resButton">=</button>
+        </article>
+        <article id="resultArticle">
+          <button type="button" id="copy">Copy</button>
+          <input type="text" name="result" id="result" value="" disabled />
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
